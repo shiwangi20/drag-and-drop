@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "../modal/project.js";
+import { Project, ProjectStatus } from "../modal/project";
 
 // Project State Management
 type Listener<T> = (items: T[]) => void;
